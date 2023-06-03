@@ -12,3 +12,14 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.navegacao li{
+    display: inline-flex;
+}
+nav li{
+    text-decoration: none;
+
+}
+.opcoes-artefatos li{
+    display: block;
+    flex-direction: column;
+}
