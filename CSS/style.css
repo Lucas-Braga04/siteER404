@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+nav{
 
-* {
-    font-family: 'K2D', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
