@@ -1,47 +1,180 @@
-*{
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-body{
-    width: 100vw;
-    height: 100vh;
+
+body {
+    font-family: 'K2D', sans-serif;
 }
-nav{
+nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 96vw;
-    height: 8vh;
-    padding: 10px;
+    background-color: #030E4F;
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 3px #F49F1C;
 }
-.navegacao li{
-    display: inline-flex;
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 90px;
 }
-nav li{
+
+nav ul li,
+a {
     text-decoration: none;
+    color: #F49F1C;
+    letter-spacing: 2px;
+    padding-right: 5px;
+}
+
+#image-nav {
+    display: flex;
+    margin-left: 10px;
+    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 70px;
+    background-position: center;
+}
+
+nav ul li a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    display: none;
 
 }
-nav a{
-    text-decoration: none;
+
+#artefs {
+    display: flex;
+    position: relative;
 }
-.opcoes-artefatos li{
-    display: block;
+
+#artefs:hover {
+    cursor: pointer;
+
+    #dropdown-menu {
+        display: flex;
+        background-color: #F49F1C;
+        position: absolute;
+        width: 150px;
+        border-radius: 3px;
+        justify-content: center;
+        margin-top: 23px;
+        border: 2px solid #030E4F;
+
+    }
+
+    #dropdown-menu a {
+        color: #030E4F;
+        padding-left: 8px;
+        display: flex;
+        border-bottom: #030E4F solid 1px;
+        padding-bottom: 5px;
+
+    }
+
+    #dropdown-menu li {
+        width: 150px;
+    }
+
+    #dropdown-menu a:hover {
+        text-shadow: 0px 0px 5px #030E4F;
+    }
+}
+
+#logo-footer {
+    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 80px;
+}
+footer {
+    width: 100vw;
+    display: flex;
     flex-direction: column;
 }
-main{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+
+#area1 {
+    display: flex;
+    background-color: #030E4F;
+    border-top: #F49F1C solid 3px;
     width: 100vw;
-    height: 88vh;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
 }
-section{
+
+#contato-email {
+    padding-left: 15px;
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+}
+
+#contato-linkedin {
+    padding-left: 15px;
+    display: flex;
+    width: 175px;
+    flex-direction: column;
+}
+
+#contato-github {
+    padding-left: 15px;
+    display: flex;
+    width: 175px;
+    flex-direction: column;
+}
+
+#contato-email a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#contato-linkedin a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#contato-github a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    color: #F49F1C;
+    background-color: #030E4F;
 }
-section h1{
-    align-items: center;
-    text-align: center;
+
+#divisor {
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin-bottom: 5px;
+    background-color: #F49F1C;
+}
+
+#github,
+#linkedin,
+#email {
+    display: flex;
 }
