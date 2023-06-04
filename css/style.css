@@ -95,6 +95,27 @@ nav ul li a:hover {
     }
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+    flex-direction: column;
+}
+section h1{
+
+    text-align: center;
+}
+#equipe404{
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+
 #logo-footer {
     background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-position: center;
