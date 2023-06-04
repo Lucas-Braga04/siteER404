@@ -11,6 +11,9 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 96vw;
+    height: 8vh;
+    padding: 10px;
 }
 .navegacao li{
     display: inline-flex;
@@ -19,7 +22,26 @@ nav li{
     text-decoration: none;
 
 }
+nav a{
+    text-decoration: none;
+}
 .opcoes-artefatos li{
     display: block;
     flex-direction: column;
+}
+main{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 88vh;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section h1{
+    align-items: center;
+    text-align: center;
 }
