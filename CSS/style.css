@@ -171,7 +171,7 @@ main {
 
 #btn-about {
     width: 36%;
-    height: 26px;
+    height: 28px;
     background-color: #030E4F;
     border: #F49F1C solid 2px;
     display: flex;
@@ -184,7 +184,7 @@ main {
 #btn-about a {
     font-size: 11px;
     text-transform: uppercase;
-    padding: 2px 15px;
+    padding: 5px 21px;
     color: #F2BC94;
 }
 
@@ -195,7 +195,7 @@ main {
 
 #btn-about a:hover {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 main hr {
