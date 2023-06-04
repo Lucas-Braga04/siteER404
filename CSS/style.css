@@ -11,15 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -105,13 +96,15 @@ nav ul li a:hover {
     }
 }
 
-#logo-footer {
-    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 80px;
+/* ESTILIZAÇÃO DO NAV ACABA AQUI */
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 #primeira-secao-texto {
@@ -135,7 +128,6 @@ nav ul li a:hover {
     padding-top: 15px;
     margin-left: 20px;
 }
-
 
 #primeira-secao-texto img {
     margin-right: 100px;
@@ -163,7 +155,6 @@ nav ul li a:hover {
     margin-left: 20px;
 }
 
-
 #segunda-secao-texto img {
     margin-left: 100px;
 }
@@ -175,10 +166,21 @@ main hr {
     height: 2px;
 }
 
+/* ESTILIZAÇÃO DO MAIN ACABA AQUI*/
+
 footer {
     width: 100vw;
     display: flex;
     flex-direction: column;
+}
+
+#logo-footer {
+    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 80px;
 }
 
 #area1 {
@@ -251,3 +253,5 @@ footer {
 #email {
     display: flex;
 }
+
+/* ESTILIZAÇÃO DO FOOTER ACABA AQUI*/
