@@ -104,8 +104,6 @@ nav ul li a:hover {
     }
 }
 
-footer {}
-
 #logo-footer {
     background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-position: center;
@@ -202,14 +200,14 @@ footer {
 #contato-linkedin {
     padding-left: 15px;
     display: flex;
-    width: 170px;
+    width: 175px;
     flex-direction: column;
 }
 
 #contato-github {
     padding-left: 15px;
     display: flex;
-    width: 170px;
+    width: 175px;
     flex-direction: column;
 }
 
