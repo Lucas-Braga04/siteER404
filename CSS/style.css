@@ -38,7 +38,7 @@ a {
 #image-nav {
     display: flex;
     margin-left: 10px;
-    background-image: url(./siteERRO404/ASSETS/IMG/LOGO-404\(1\).png);
+    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
@@ -211,7 +211,7 @@ footer {
 }
 
 #logo-footer {
-    background-image: url(./siteERRO404/ASSETS/IMG/LOGO-404\(1\).png);
+    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
