@@ -95,6 +95,7 @@ nav ul li a:hover {
     }
 }
 
+
 /* ESTILIZAÇÃO DO NAV ACABA AQUI */
 
 main {
@@ -185,7 +186,7 @@ main {
 #btn-about a {
     font-size: 11px;
     text-transform: uppercase;
-    padding: 5px 21px;
+    padding: 7px 23px;
     color: #F2BC94;
 }
 
@@ -210,7 +211,6 @@ main hr {
 
 footer {
     width: 100vw;
-    height: 100vh;
     background-color: #030E4F;
     display: flex;
     flex-direction: column;
@@ -275,7 +275,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 50px;
+    height: 65px;
     justify-content: center;
     align-items: center;
     color: #F49F1C;
