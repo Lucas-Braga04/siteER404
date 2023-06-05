@@ -131,6 +131,7 @@ main {
 }
 
 #primeira-secao-texto img {
+    padding-top: 50px;
     margin-right: 100px;
 }
 
@@ -209,6 +210,8 @@ main hr {
 
 footer {
     width: 100vw;
+    height: 100vh;
+    background-color: #030E4F;
     display: flex;
     flex-direction: column;
 }
