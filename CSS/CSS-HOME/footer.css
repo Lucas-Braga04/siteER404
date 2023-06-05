@@ -1,0 +1,86 @@
+footer {
+    width: 100vw;
+    background-color: #030E4F;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-footer {
+    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 80px;
+}
+
+#area1 {
+    display: flex;
+    background-color: #030E4F;
+    border-top: #F49F1C solid 3px;
+    width: 100vw;
+    height: 130px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contato-email {
+    padding-left: 15px;
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+}
+
+#contato-linkedin {
+    padding-left: 15px;
+    display: flex;
+    width: 175px;
+    flex-direction: column;
+}
+
+#contato-github {
+    padding-left: 15px;
+    display: flex;
+    width: 175px;
+    flex-direction: column;
+}
+
+#contato-email a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#contato-linkedin a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#contato-github a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    color: #F49F1C;
+    background-color: #030E4F;
+}
+
+#divisor {
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin-bottom: 5px;
+    background-color: #F49F1C;
+}
+
+#github,
+#linkedin,
+#email {
+    display: flex;
+}

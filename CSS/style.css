@@ -53,7 +53,7 @@ nav ul li a:hover {
     text-shadow: 0px 0px 2px #F49F1C;
 }
 
-#dropdown-menu {
+.dropdown-menu {
     display: flex;
     flex-direction: column;
     display: none;
@@ -65,9 +65,8 @@ nav ul li a:hover {
 }
 
 #artefs:hover {
-    cursor: pointer;
 
-    #dropdown-menu {
+    dropdown-menu {
         display: flex;
         background-color: #F49F1C;
         position: absolute;
@@ -78,7 +77,7 @@ nav ul li a:hover {
         border: 2px solid #030E4F;
     }
 
-    #dropdown-menu a {
+    .dropdown-menu a {
         color: #030E4F;
         padding-left: 8px;
         display: flex;
@@ -86,17 +85,16 @@ nav ul li a:hover {
         padding-bottom: 5px;
     }
 
-    #dropdown-menu li {
+    .dropdown-menu li {
         width: 150px;
     }
 
-    #dropdown-menu a:hover {
+    .dropdown-menu a:hover {
         text-shadow: 0px 0px 5px #030E4F;
     }
 }
 
-
-/* ESTILIZAÇÃO DO NAV ACABA AQUI */
+/*************************** ESTILIZAÇÃO DO NAV ACABA AQUI **************************************************/
 
 main {
     width: 100vw;
@@ -106,6 +104,14 @@ main {
     margin: 0;
     padding: 0;
     background-color: rgb(244, 249, 253);
+}
+
+main a {
+    color: #F2BC94;
+}
+
+main a:hover {
+    color: #F49F1C;
 }
 
 #primeira-secao-texto {
@@ -136,10 +142,6 @@ main {
     margin-right: 100px;
 }
 
-#primeira-secao-texto a:hover {
-    font-weight: 700;
-}
-
 #segunda-secao-texto {
     width: 100vw;
     height: 350px;
@@ -168,12 +170,12 @@ main {
 }
 
 #segunda-secao-texto a:hover {
-    font-weight: 700;
+    color: #F49F1C;
 }
 
 #btn-about {
     width: 36%;
-    height: 28px;
+    height: 35px;
     background-color: #030E4F;
     border: #F49F1C solid 2px;
     display: flex;
@@ -186,7 +188,7 @@ main {
 #btn-about a {
     font-size: 11px;
     text-transform: uppercase;
-    padding: 7px 23px;
+    padding: 5px 18px;
     color: #F2BC94;
 }
 
@@ -196,7 +198,7 @@ main {
 }
 
 #btn-about a:hover {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 11px;
 }
 
@@ -207,7 +209,7 @@ main hr {
     height: 2px;
 }
 
-/* ESTILIZAÇÃO DO MAIN ACABA AQUI*/
+/*************************** ESTILIZAÇÃO DO MAIN ACABA AQUI **************************************************/
 
 footer {
     width: 100vw;
@@ -296,7 +298,7 @@ footer {
     display: flex;
 }
 
-/* ESTILIZAÇÃO DO FOOTER ACABA AQUI*/
+/*************************** ESTILIZAÇÃO DO FOOTER ACABA AQUI **************************************************/
 
 .btn-mobile {
     display: none;
@@ -380,6 +382,8 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    /*************************** RESPONSIVIDADE DO NAV ACABA AQUI **************************************************/
 
     main {
         display: flex;

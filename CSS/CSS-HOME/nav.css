@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'K2D', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030E4F;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: solid 3px #F49F1C;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 90px;
+    transition: all 0.3s ease;
+}
+
+nav ul li,
+a {
+    text-decoration: none;
+    color: #F49F1C;
+    letter-spacing: 2px;
+    padding-right: 5px;
+}
+
+#image-nav {
+    display: flex;
+    margin-left: 10px;
+    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 70px;
+    background-position: center;
+}
+
+nav ul li a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
+#dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#artefs {
+    display: flex;
+    position: relative;
+}
+
+#artefs:hover {
+    cursor: pointer;
+
+    #dropdown-menu {
+        display: flex;
+        background-color: #F49F1C;
+        position: absolute;
+        width: 150px;
+        border-radius: 3px;
+        justify-content: center;
+        margin-top: 23px;
+        border: 2px solid #030E4F;
+    }
+
+    #dropdown-menu a {
+        color: #030E4F;
+        padding-left: 8px;
+        display: flex;
+        border-bottom: #030E4F solid 1px;
+        padding-bottom: 5px;
+    }
+
+    #dropdown-menu li {
+        width: 150px;
+    }
+
+    #dropdown-menu a:hover {
+        text-shadow: 0px 0px 5px #030E4F;
+    }
+}
