@@ -115,7 +115,9 @@ section h1{
     display: inline-flex;
 }
 .cardequipe{
-    width: 40vw;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
     height: 50vh;
     justify-content: center;
     align-items: center;
@@ -126,7 +128,6 @@ section h1{
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    padding-top: 10vh;
 }
 .cardequipe img{
     display: block;
