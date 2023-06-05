@@ -76,16 +76,16 @@ nav ul li a:hover {
         border: 2px solid #030E4F;
 
     }
-
+    
     #dropdown-menu a {
         color: #030E4F;
         padding-left: 8px;
         display: flex;
         border-bottom: #030E4F solid 1px;
         padding-bottom: 5px;
-
+        
     }
-
+    
     #dropdown-menu li {
         width: 150px;
     }
