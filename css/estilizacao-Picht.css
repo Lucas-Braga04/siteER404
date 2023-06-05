@@ -94,6 +94,23 @@ nav ul li a:hover {
         text-shadow: 0px 0px 5px #030E4F;
     }
 }
+main{
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+
+}
+#video {
+    width: 100%;
+    max-width: 40vw;
+    padding-bottom: 10px;
+  }
+  
+  #downloadBtn {
+    margin-top: 10px;
+  }
+  
 #logo-footer {
     background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-position: center;
