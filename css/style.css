@@ -100,20 +100,36 @@ main{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     flex-direction: column;
 }
 section h1{
-
     text-align: center;
 }
 #equipe404{
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: inline-flex;
+}
+.cardequipe{
+    width: 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.cardequipe div{
+    width: 40vw;
+    height: 40vh;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+.cardequipe img{
+    display: block;
 }
 
 #logo-footer {
