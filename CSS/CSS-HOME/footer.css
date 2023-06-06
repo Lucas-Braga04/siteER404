@@ -46,18 +46,15 @@ footer {
 }
 
 #contato-email a:hover {
-    font-weight: 600;
-    text-shadow: 0px 0px 2px #F49F1C;
+    color: #F2BC94;
 }
 
 #contato-linkedin a:hover {
-    font-weight: 600;
-    text-shadow: 0px 0px 2px #F49F1C;
+    color: #F2BC94;
 }
 
 #contato-github a:hover {
-    font-weight: 600;
-    text-shadow: 0px 0px 2px #F49F1C;
+    color: #F2BC94;
 }
 
 #copyright {
@@ -69,6 +66,12 @@ footer {
     align-items: center;
     color: #F49F1C;
     background-color: #030E4F;
+}
+
+#copyright p {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
 }
 
 #divisor {
