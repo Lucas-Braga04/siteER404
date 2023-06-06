@@ -21,7 +21,7 @@ main a:hover {
     height: 350px;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -48,7 +48,7 @@ main a:hover {
     width: 100vw;
     height: 350px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
