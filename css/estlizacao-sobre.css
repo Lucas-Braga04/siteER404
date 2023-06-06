@@ -10,6 +10,41 @@ body {
     font-family: 'K2D', sans-serif;
     overflow-x: hidden;
 }
+
+#container-sobre h1 {
+    padding-left: 48px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#container-sobre p {
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#container-sobre h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 48px;
+}
+
+#container-sobre img {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 50%;
+    align-items: center;
+}
+
+#paragrafo-equipe {
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -94,6 +129,7 @@ nav ul li a:hover {
         text-shadow: 0px 0px 5px #030E4F;
     }
 }
+
 #logo-footer {
     background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-position: center;
@@ -102,6 +138,7 @@ nav ul li a:hover {
     width: 350px;
     height: 80px;
 }
+
 footer {
     width: 100vw;
     display: flex;
