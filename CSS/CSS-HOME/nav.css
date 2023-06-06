@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 * {
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'K2D', sans-serif;
+    font-family: 'Rubik', sans-serif;
     overflow-x: hidden;
 }
 
@@ -40,7 +40,7 @@ a {
 #image-nav {
     display: flex;
     margin-left: 10px;
-    background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
+    background-image: url(/ASSETS/IMG/LOGO404$.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
@@ -62,10 +62,10 @@ nav ul li a:hover {
 #artefs {
     display: flex;
     position: relative;
+    cursor: pointer;
 }
 
 #artefs:hover>#dropdown-menu {
-
     cursor: pointer;
     display: flex;
     background-color: #F49F1C;
@@ -75,7 +75,6 @@ nav ul li a:hover {
     justify-content: center;
     margin-top: 23px;
     border: 2px solid #030E4F;
-
 }
 
 #artefs:hover>#dropdown-menu a {
