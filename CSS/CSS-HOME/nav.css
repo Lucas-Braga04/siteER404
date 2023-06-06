@@ -20,6 +20,7 @@ nav {
     height: 10vh;
     border-bottom: solid 3px #F49F1C;
     position: fixed;
+    box-shadow: 0px 0px 4px 3px rgb(136, 133, 133);
 }
 
 nav ul {

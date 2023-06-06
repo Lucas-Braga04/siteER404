@@ -57,7 +57,7 @@ iframe {
 #downloadPitch {
     align-self: center;
     margin-top: 50px;
-    padding: 8px 8px;
+    padding: 2px 10px;
     display: flex;
     align-items: center;
     font-size: 17px;
@@ -66,10 +66,12 @@ iframe {
     color: #F49F1C;
     background-color: #030E4F;
     cursor: pointer;
+    border: solid 2px #F49F1C;
+    box-shadow: 0px 0px 4px 3px rgb(136, 133, 133);
 }
 
 #downloadPitch:hover {
-    border: #F49F1C solid 2px;
+    box-shadow: 0px 0px 4px 3px #F49F1C;
 }
 
 #icon-youtube {
