@@ -13,7 +13,7 @@ body {
 
 main {
     width: 100vw;
-    height: 120vh;
+    height: 95vh;
     background-color: rgb(244, 249, 253);
     display: flex;
     justify-content: center;
@@ -24,10 +24,10 @@ main {
     justify-content: center;
     align-items: start;
     width: 80vw;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .conteudo h1 {
@@ -44,12 +44,12 @@ main {
 
 .conteudo h2 {
     display: flex;
-    padding-top: 50px;
+    padding-top: 40px;
     align-self: center;
 }
 
 iframe {
-    padding-top: 40px;
+    padding-top: 20px;
     display: flex;
     align-self: center;
 }
