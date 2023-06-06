@@ -30,6 +30,7 @@
 
     nav {
         position: fixed;
+        width: 100vw;
     }
 
     nav ul li {
