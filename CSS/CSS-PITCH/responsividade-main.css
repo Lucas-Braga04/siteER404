@@ -1,0 +1,24 @@
+@media screen and (max-width: 910px) {
+    .conteudo {
+        padding-top: 120px;
+    }
+
+    main {
+        height: 110vh;
+    }
+
+    iframe {
+        width: 70vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .conteudo {
+        padding-top: 300px;
+    }
+
+    main {
+        height: 130vh;
+    }
+}
