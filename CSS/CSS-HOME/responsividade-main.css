@@ -60,3 +60,53 @@
         align-self: center;
     }
 }
+@media screen and (max-width: 480px) {
+    #primeira-secao-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 550px;
+        padding-top: 100px;
+    }
+
+    #primeira-secao-texto div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    #primeira-secao-texto img {
+        margin: 0;
+        width: 70vh;
+        height: 250px;
+    }
+    #segunda-secao-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 550px;
+    }
+
+    #segunda-secao-texto div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    #segunda-secao-texto img {
+        width: 70vh;
+        height: 200px;
+        margin: 0;
+    }
+
+    #btn-about {
+        display: flex;
+        align-self: center;
+    }
+}
