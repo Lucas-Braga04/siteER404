@@ -114,7 +114,7 @@ section h1{
     text-align: center;
     display: inline-flex;
 }
-.cardequipe{
+.card-equipe{
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -122,17 +122,21 @@ section h1{
     justify-content: center;
     align-items: center;
 }
-.cardequipe div{
-    width: 40vw;
+.card-equipe div{
+    width: 50vw;
     height: 40vh;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
 }
-.cardequipe img{
+.card-equipe img{
     display: block;
 }
-
+#PO{
+   text-align: center;
+   align-items: center;
+   justify-content: center; 
+}
 #logo-footer {
     background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-position: center;
