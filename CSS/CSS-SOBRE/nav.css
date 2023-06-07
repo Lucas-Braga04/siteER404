@@ -11,45 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-<<<<<<< HEAD
-#container-sobre {
-    padding-top: 70px;
-}
-
-#container-sobre h1 {
-    padding-top: 80px;
-    padding-bottom: 30px;
-}
-
-#container-sobre p {
-    align-items: center;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    font-size: 18px;
-}
-
-#container-sobre h2 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-#container-sobre img {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    margin-left: 80x;
-    align-items: center;
-}
-
-#paragrafo-equipe {
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-=======
->>>>>>> 5cc2615796eb7e57c9b387129624af88f689e3c4
 nav {
     display: flex;
     justify-content: space-between;
