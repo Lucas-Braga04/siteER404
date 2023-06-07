@@ -30,6 +30,7 @@
 
     nav {
         position: fixed;
+        width: 100vw;
     }
 
     nav ul li {
@@ -72,7 +73,7 @@
 
     nav ul li a,
     #artefs a {
-        font-size: 17px;
+        font-size: 15px;
         justify-content: center;
     }
 

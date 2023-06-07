@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 #container-sobre {
     padding-top: 70px;
 }
@@ -47,6 +48,8 @@ body {
     padding-right: 50px;
 }
 
+=======
+>>>>>>> 5cc2615796eb7e57c9b387129624af88f689e3c4
 nav {
     display: flex;
     justify-content: space-between;

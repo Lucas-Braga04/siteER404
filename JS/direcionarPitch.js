@@ -1,3 +1,3 @@
 function direcionarPitch() {
-    window.location.href = 'https://www.youtube.com/watch?v=S9bCLPwzSC0';
+    window.location.href = 'https://www.youtube.com/watch?v=qIO7Wzo6jQ8';
 }
