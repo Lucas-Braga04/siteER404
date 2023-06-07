@@ -83,8 +83,8 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-    @media (max-width: 480px) {
+@media screen and (max-width: 380px) {
+    @media (max-width: 380px) {
         nav {
             padding: 0 20px;
             width: 100%;

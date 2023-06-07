@@ -110,4 +110,21 @@
     #email {
         display: flex;
     }
+    @media screen and (max-width: 380px) {
+        footer{
+            width: 100%;
+        }
+        #logo-footer{
+            width: 250px;
+        }
+        #contato-email{
+           
+            display: flex;
+            width: 250px;
+            flex-direction: column;
+        }
+        #contato-email a {
+            font-size: 10px;
+        }
+    }
 }
