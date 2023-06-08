@@ -60,18 +60,18 @@
         align-self: center;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
     main{
         width: 100vw;
     }
     #primeira-secao-texto {
         padding-top: 45px;      
-        width:100% ;
+        width:100vw ;
         height: 45vh;
     }
     #segunda-secao-texto {
         padding-bottom: 10px;
-        width: 100%;
+        width: 100vw;
         height: 45vh;
     }
     #primeira-secao-texto div{
@@ -81,20 +81,15 @@
         max-width: 100%;
     }
     #segunda-secao-texto div{
+       
         word-wrap: break-word;
         overflow: none;
         white-space: normal;
         max-width: 100%;
     }
     #primeira-secao-texto div p {
-        text-indent: 25px;
         font-size: 13px;
-        text-align: justify;
     }
-    #primeira-secao-texto div{
-        margin: 0;
-    }
- 
     #segunda-secao-texto div p {
         font-size: 13px;
 
