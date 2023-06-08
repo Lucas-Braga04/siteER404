@@ -111,3 +111,20 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 320px) {
+    footer {
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #logo-footer {
+        width: 150px;
+    }
+
+    #area1,
+    #area2 {
+        font-size: 10px;
+    }
+}
