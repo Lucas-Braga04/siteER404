@@ -8,6 +8,10 @@ main {
     background-color: rgb(244, 249, 253);
 }
 
+#container-sobre {
+    padding: 0px 100px;
+}
+
 #container-sobre h1 {
     padding-left: 48px;
     padding-top: 140px;
@@ -21,6 +25,7 @@ main {
     padding-right: 50px;
     padding-bottom: 10px;
     font-size: 18px;
+    text-indent: 5px;
 }
 
 #container-sobre h2 {
