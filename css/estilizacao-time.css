@@ -5,6 +5,7 @@ main{
     width: 100vw;
     height:100vh;
     flex-direction: column;
+    font-size: 15px;
 }
 section h1{
     text-align: center;

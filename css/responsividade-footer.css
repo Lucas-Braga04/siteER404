@@ -25,7 +25,7 @@
         height: auto;
         align-items: center;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 15px;
 
     }
 
@@ -38,7 +38,6 @@
     }
 
     #logo-email {
-        margin-left: 55px;
         margin-top: 10px;
     }
 
@@ -54,7 +53,7 @@
         margin: 10px;
         padding-left: 15px;
         display: flex;
-        width: 175px;
+        width: 17.5vw;
         flex-direction: column;
 
 
@@ -64,7 +63,7 @@
         margin: 10px;
         padding-left: 15px;
         display: flex;
-        width: 175px;
+        width: 17.5vw;
         flex-direction: column;
     }
 
@@ -98,7 +97,7 @@
     }
 
     #divisor {
-        width: 100%;
+        width: 100vw;
         height: 1px;
         border: none;
         margin-bottom: 5px;
@@ -113,7 +112,120 @@
 }
 
 @media screen and (max-width: 720px) {
+    footer {
+        width: 100vw;
+        height: auto;
+        background-color: #030E4F;
+        display: flex;
+        flex-direction: column;
+    }
 
+    #logo-footer {
+        background-image: url(/ASSETS/IMG/LOGO-404.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40vw;
+        height: 13.5vh;
+
+    }
+
+    #area1 {
+        display: flex;
+        background-color: #030E4F;
+        border-top: #F49F1C solid 3px;
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+
+    }
+
+    #contato-email {
+        word-wrap: break-word;
+        overflow-y: hidden;
+        white-space: normal;
+        max-width: 100%;
+        margin: 10px;
+        padding-left: 15px;
+        display: flex;
+        width: 23vw;
+        flex-direction: column;
+    }
+
+    #logo-email {
+        margin-top: 10px;
+    }
+
+    #logo-linkedin {
+        margin-top: 10px;
+    }
+
+    #logo-github {
+        margin-top: 10px;
+    }
+
+    #contato-linkedin {
+        margin: 10px;
+        padding-left: 15px;
+        display: flex;
+        width: 17.5vw;
+        flex-direction: column;
+
+
+    }
+
+    #contato-github {
+        margin: 10px;
+        padding-left: 15px;
+        display: flex;
+        width: 17.5vw;
+        flex-direction: column;
+    }
+
+    #contato-email a:hover {
+        color: #F2BC94;
+    }
+
+    #contato-linkedin a:hover {
+        color: #F2BC94;
+    }
+
+    #contato-github a:hover {
+        color: #F2BC94;
+    }
+
+    #copyright {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 9vh;
+        justify-content: center;
+        align-items: center;
+        color: #F49F1C;
+        background-color: #030E4F;
+    }
+
+    #copyright p {
+        display: flex;
+        padding-top: 15px;
+        align-items: center;
+    }
+
+    #divisor {
+        width: 100vw;
+        height: 1px;
+        border: none;
+        margin-bottom: 5px;
+        background-color: #F49F1C;
+    }
+
+    #github,
+    #linkedin,
+    #email {
+        display: flex;
+    }
     #area1,
     #area2 {
         font-size: 15px;
@@ -124,15 +236,118 @@
     footer {
         width: 100vw;
         height: auto;
+        background-color: #030E4F;
+        display: flex;
         flex-direction: column;
     }
 
     #logo-footer {
-        width: 150px;
+        background-image: url(/ASSETS/IMG/LOGO-404.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 13.5vh;
+
     }
 
-    #area1,
-    #area2 {
-        font-size: 10px;
+    #area1 {
+        display: flex;
+        background-color: #030E4F;
+        border-top: #F49F1C solid 3px;
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+
+    }
+    #area2{
+        font-size: 15px;
+    }
+
+    #contato-email {
+        word-wrap: break-word;
+        overflow-y: hidden;
+        white-space: normal;
+        max-width: 100%;
+        margin: 10px;
+        padding-left: 15px;
+        display: flex;
+        width: 23vw;
+        flex-direction: column;
+    }
+
+    #logo-email {
+        margin-top: 10px;
+    }
+
+    #logo-linkedin {
+        margin-top: 10px;
+    }
+
+    #logo-github {
+        margin-top: 10px;
+    }
+
+    #contato-linkedin {
+        margin: 10px;
+        padding-left: 15px;
+        display: flex;
+        width: 17.5vw;
+        flex-direction: column;
+
+
+    }
+
+    #contato-github {
+        margin: 10px;
+        padding-left: 15px;
+        display: flex;
+        width: 17.5vw;
+        flex-direction: column;
+    }
+
+    #contato-email a:hover {
+        color: #F2BC94;
+    }
+
+    #contato-linkedin a:hover {
+        color: #F2BC94;
+    }
+
+    #contato-github a:hover {
+        color: #F2BC94;
+    }
+
+    #copyright {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 9vh;
+        justify-content: center;
+        align-items: center;
+        color: #F49F1C;
+        background-color: #030E4F;
+    }
+
+    #copyright p {
+        display: flex;
+        padding-top: 15px;
+        align-items: center;
+    }
+
+    #divisor {
+        width: 100vw;
+        height: 1px;
+        border: none;
+        margin-bottom: 5px;
+        background-color: #F49F1C;
+    }
+
+    #github,
+    #linkedin,
+    #email {
+        display: flex;
     }
 }
