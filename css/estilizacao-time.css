@@ -118,25 +118,56 @@ section h1{
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
 }
 .card-equipe div{
     width: 50vw;
-    height: 40vh;
+    height: 35vh;
     justify-content: space-between;
     text-align: center;
     align-items: center;
 }
-.card-equipe img{
+
+.PO{
+
+    width: 50vw;
+    height: 17.5vh;
     display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
 }
-#PO{
-   text-align: center;
-   align-items: center;
-   justify-content: center; 
+.ES{
+    
+    width: 50vw;
+    height: 17.5vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+
 }
+.AS{
+
+    width: 50vw;
+    height: 17.5vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+.DS{
+
+    width: 50vw;
+    height: 17.5vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+cad
 #logo-footer {
     background-image: url(/ASSETS/IMG/LOGO-404\(1\).png);
     background-position: center;
