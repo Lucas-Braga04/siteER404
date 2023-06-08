@@ -8,12 +8,12 @@
     }
 
     #logo-footer {
-        background-image: url(/ASSETS/IMG/LOGO404$.png);
+        background-image: url(/ASSETS/IMG/LOGO-404.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 400px;
-        height: 70px;
+        width: 40vw;
+        height: 13.5vh;
 
     }
 
@@ -33,7 +33,7 @@
         margin: 10px;
         padding-left: 15px;
         display: flex;
-        width: 230px;
+        width: 23vw;
         flex-direction: column;
     }
 
