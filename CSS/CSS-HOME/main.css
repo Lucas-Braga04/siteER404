@@ -39,6 +39,11 @@ main {
     align-items: center;
 }
 
+#img-sobre {
+    height: 10vh;
+    width: 10vw;
+}
+
 #paragrafo-equipe {
     margin-bottom: 60px;
 }
