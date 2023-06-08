@@ -74,12 +74,11 @@
         width: 100vw;
         height: 45vh;
     }
-    #primeira-secao-texto div{
-        word-wrap: break-word;
-        overflow: auto;
-        white-space: normal;
-        max-width: 100%;
-    }
+    #primeira-secao-texto div {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
     #segunda-secao-texto div{
        
         word-wrap: break-word;
@@ -96,6 +95,7 @@
     }
     #primeira-secao-texto div h1 {
         font-size: 17px;
+        padding-top: 10px;
     }
     #primeira-secao-texto img {
         width: 70vw;

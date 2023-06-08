@@ -8,46 +8,6 @@ main {
     background-color: rgb(244, 249, 253);
 }
 
-#container-sobre {
-    padding: 0px 100px;
-}
-
-#container-sobre h1 {
-    padding-top: 140px;
-    padding-bottom: 30px;
-}
-
-#container-sobre p {
-    align-items: center;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    text-indent: 5px;
-}
-
-#container-sobre h2 {
-    margin-top: 70px;
-    margin-bottom: 100px;
-}
-
-#container-sobre img {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    margin-left: 2%;
-    align-items: center;
-}
-
-#img-sobre {
-    height: 12vh;
-    width: 12vw;
-}
-
-#paragrafo-equipe {
-    margin-bottom: 60px;
-}
-
 main a {
     color: #F2BC94;
 }
@@ -68,7 +28,7 @@ main a:hover {
 #primeira-secao-texto div {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     margin-left: 100px;
 }
 
@@ -81,7 +41,7 @@ main a:hover {
 
 #primeira-secao-texto img {
     padding-top: 50px;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
 #segunda-secao-texto {
