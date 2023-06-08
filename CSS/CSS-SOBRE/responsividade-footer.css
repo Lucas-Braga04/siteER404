@@ -112,6 +112,14 @@
     }
 }
 
+@media screen and (max-width: 720px) {
+
+    #area1,
+    #area2 {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     footer {
         width: 100vw;
