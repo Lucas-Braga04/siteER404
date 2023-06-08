@@ -13,21 +13,21 @@ body {
 
 main {
     width: 100vw;
-    height: 100vh;
+    height: 1000px;
     background-color: rgb(244, 249, 253);
-    display: flex;
+    display: block;
     justify-content: center;
-    align-items: normal;
+    align-items: center;
 }
 
 .conteudo {
     justify-content: center;
-    align-items: start;
-    width: 80vw;
+    align-items: center;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 120px;
 }
 
 .conteudo h1 {
@@ -37,9 +37,8 @@ main {
 
 .conteudo p {
     display: flex;
-    padding-left: 50px;
+    padding: 20px 100px;
     text-indent: 10px;
-    padding-top: 20px;
 }
 
 .conteudo h2 {

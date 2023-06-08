@@ -19,7 +19,7 @@
     }
 
     .btn-mobile img:hover {
-        box-shadow: 0px 0px 2px 3px #F2BC94;
+        box-shadow: 0px 0px 0px 2px #F2BC94;
         border-radius: 50%;
         cursor: pointer;
     }
@@ -30,7 +30,6 @@
 
     nav {
         position: fixed;
-        width: 100vw;
     }
 
     nav ul li {
@@ -73,7 +72,7 @@
 
     nav ul li a,
     #artefs a {
-        font-size: 15px;
+        font-size: 17px;
         justify-content: center;
     }
 
@@ -81,28 +80,74 @@
         display: flex;
         justify-content: center;
     }
+
+    #image-nav {
+        width: 300px;
+    }
+
+    #logo-footer {
+        width: 250px;
+    }
 }
 
-@media screen and (max-width: 380px) {
-    @media (max-width: 380px) {
-        nav {
-            padding: 0 20px;
-            width: 100%;
-        }
+@media screen and (max-width:720px) {
+    nav ul {
+        width: 35%;
+    }
 
-        #image-nav {
-            width: 160px;
-            height: 50px;
+    #image-nav {
+        width: 250px;
+    }
 
-        }
-        .btn-mobile {
-            display: block;
-            background-color: transparent;
-            margin-right: 25%;
-            border: none;
-        }
-        nav ul{
-            width: 70%;
-        }
+    .btn-mobile img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .btn-mobile img:hover {
+        box-shadow: 0px 0px 0px 2px #F2BC94;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #logo-footer {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    nav ul.open {
+        width: 60%;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    #image-nav {
+        width: 30%;
+    }
+
+    .btn-mobile img {
+        width: 25px;
+        width: 25px;
+    }
+
+    .btn-mobile img:hover {
+        box-shadow: 0px 0px 0px 2px #f2bd9400;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    nav ul {
+        align-items: center;
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        background-color: #F49F1C;
+        height: 100vh;
+        width: 30%;
+        display: block;
+        transition: all 0.3s ease;
     }
 }

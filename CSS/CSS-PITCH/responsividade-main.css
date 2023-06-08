@@ -4,21 +4,32 @@
     }
 
     main {
-        height: 110vh;
+        width: 100vw;
+        height: 1000px;
+        display: block;
+        justify-content: center;
+        display: flex;
     }
 
-    iframe {
-        width: 70vw;
-        height: 100vh;
+    #mostrarPitch {
+        width: 30%;
+        margin-bottom: 5%;
     }
 }
 
-@media screen and (max-width:550px) {
+
+@media screen and (max-width:720px) {
     .conteudo {
-        padding-top: 300px;
+        padding-top: 200px;
+    }
+
+    iframe {
+        width: 70%;
     }
 
     main {
-        height: 130vh;
+        display: block;
+        width: 100vw;
+        height: 1000px;
     }
 }
