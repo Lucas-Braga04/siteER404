@@ -1,0 +1,73 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+    flex-direction: column;
+    font-size: 15px;
+}
+section h1{
+    text-align: center;
+}
+#equipe404{
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+.card-equipe{
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+.card-equipe div{
+    width: 50vw;
+    height: 35vh;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.PO{
+
+    width: 50vw;
+    height: 17.5vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+.ES{
+    
+    width: 50vw;
+    height: 17.5vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+
+}
+.AS{
+
+    width: 50vw;
+    height: 17.5vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+.DS{
+
+    width: 50vw;
+    height: 17.5vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}

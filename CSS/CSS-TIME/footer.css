@@ -10,8 +10,8 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 400px;
-    height: 70px;
+    width: 40vw;
+    height: 7vh;
 }
 
 #area1 {
@@ -19,7 +19,7 @@ footer {
     background-color: #030E4F;
     border-top: #F49F1C solid 3px;
     width: 100vw;
-    height: 130px;
+    height: 15vh;
     justify-content: space-around;
     align-items: center;
 }
@@ -27,21 +27,21 @@ footer {
 #contato-email {
     padding-left: 15px;
     display: flex;
-    width: 280px;
+    width: 28vw;
     flex-direction: column;
 }
 
 #contato-linkedin {
     padding-left: 15px;
     display: flex;
-    width: 175px;
+    width: 17.5vw;
     flex-direction: column;
 }
 
 #contato-github {
     padding-left: 15px;
     display: flex;
-    width: 175px;
+    width: 17.5vw;
     flex-direction: column;
 }
 
@@ -75,7 +75,7 @@ footer {
 }
 
 #divisor {
-    width: 100%;
+    width: 100vw;
     height: 1px;
     border: none;
     margin-bottom: 5px;
