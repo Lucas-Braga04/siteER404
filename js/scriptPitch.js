@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 document.getElementById('downloadPitch').addEventListener('click', function(){
     let video = document.getElementById('video');
     let source = document.getElementsByTagName('source',[0]);
@@ -29,4 +30,25 @@ document.getElementById('downloadPitch').addEventListener('click', function(){
     let videoUrl = 'https://www.youtube.com/watch?v=KVjBCT2Lc94&list=RDL2QTtdeL3dE&index=27';
     window.open(videoUrl);
   }*/
+=======
+window.onload = function() {
+    let downloadBtn = document.getElementById('downloadBtn');
+    let video = document.getElementById('myVideo');
+  
+    downloadBtn.addEventListener('click', function() {
+      let videoUrl = video.getAttribute('src');
+      let videoName = getVideoName(videoUrl);
+  
+      let anchor = document.createElement('a');
+      anchor.href = videoUrl;
+      anchor.download = videoName;
+      anchor.click();
+    });
+  
+    function getVideoName(url) {
+      let parts = url.split('/');
+      return parts[parts.length - 1];
+    }
+  };
+>>>>>>> Stashed changes
   
