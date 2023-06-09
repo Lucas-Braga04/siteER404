@@ -15,6 +15,7 @@ main {
     padding-left: 70px;
     background-color: #fff;
     box-shadow: 0px 5px 7px 3px rgb(133, 133, 133);
+    border: none;
 }
 
 legend {
@@ -59,4 +60,11 @@ legend {
 #telefoneUsuario {
     display: flex;
     flex-direction: column;
+}
+#btn-contato{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #F49F1C;
 }
