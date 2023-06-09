@@ -28,7 +28,7 @@ main a:hover {
     padding-right: 50px;
     padding-bottom: 10px;
     font-size: 18px;
-    text-indent 5px;
+    text-indent: 5px;
 }
 
 #container-sobre h2 {
