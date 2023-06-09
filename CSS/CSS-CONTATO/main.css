@@ -1,0 +1,56 @@
+main {
+    display: flex;
+    width: 100vw;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 249, 253);
+}
+
+.container-form {
+    display: flex;
+    width: 40%;
+    height: 70%;
+    justify-content: start;
+    padding-left: 70px;
+    background-color: #fff;
+}
+
+.container-form form {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    width: 70%;
+}
+
+.container-form form div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#checkWhatsapp {
+    display: flex;
+    flex-direction: row;
+}
+
+#checkWhatsapp #telefoneContato {
+    margin-right: 10px;
+}
+
+#checkWhatsapp #whatsappContato {
+    margin-right: 10px;
+}
+
+#whatsappContato span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#telefoneUsuario {
+    display: flex;
+    flex-direction: column;
+}
