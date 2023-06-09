@@ -16,98 +16,42 @@ main a:hover {
     color: #F49F1C;
 }
 
-#primeira-secao-texto {
-    width: 100vw;
-    height: 350px;
+#container-sobre h1 {
+    padding-top: 140px;
+    padding-bottom: 30px;
+}
+
+#container-sobre p {
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-indent: 5px;
+}
+
+#container-sobre h2 {
     margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+}
+
+#container-sobre img {
     align-items: center;
+    width: 550px;
+    height: 240px;
 }
 
-#primeira-secao-texto div {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin-left: 100px;
+#img-sobre {
+    height: 12vh;
+    width: 12vw;
 }
 
-#primeira-secao-texto div p {
-    text-indent: 10px;
-    text-align: justify;
-    padding-top: 15px;
-    margin-left: 20px;
+#paragrafo-equipe {
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-#primeira-secao-texto img {
-    padding-top: 50px;
-    margin-right: 100px;
-}
-
-#segunda-secao-texto {
-    width: 100vw;
-    height: 350px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#segunda-secao-texto div {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin-right: 100px;
-}
-
-#segunda-secao-texto div p {
-    text-indent: 10px;
-    text-align: justify;
-    padding-top: 15px;
-    margin-left: 20px;
-    padding-bottom: 20px;
-}
-
-#segunda-secao-texto img {
-    margin-left: 100px;
-}
-
-#segunda-secao-texto a:hover {
-    color: #F49F1C;
-}
-
-#btn-about {
-    width: 36%;
-    height: 35px;
-    background-color: #030E4F;
-    border: #F49F1C solid 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: flex-end;
-    border-radius: 7px;
-    box-shadow: 0px 0px 4px 3px rgb(136, 133, 133);
-}
-
-#btn-about a {
-    font-size: 11px;
-    text-transform: uppercase;
-    padding: 5px 18px;
-    color: #F2BC94;
-}
-
-#btn-about:hover {
-    box-shadow: #F2BC94 0px 0px 15px 8px;
-    cursor: pointer;
-}
-
-#btn-about a:hover {
-    font-weight: 600;
-    font-size: 11px;
-}
-
-main hr {
-    width: 90%;
-    background-color: #030E4F;
-    border: none;
-    height: 2px;
+#img-sobre {
+    margin: 0;
 }
