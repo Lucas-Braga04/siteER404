@@ -57,6 +57,7 @@ main a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 #segunda-secao-texto h1 {
@@ -123,4 +124,5 @@ main hr {
     background-color: #030E4F;
     border: none;
     height: 2px;
+    margin: 15px 0px;
 }
