@@ -19,6 +19,7 @@ main a:hover {
 #container-sobre h1 {
     padding-top: 140px;
     padding-bottom: 30px;
+    font-size: 30px;
 }
 
 #container-sobre p {
@@ -27,12 +28,13 @@ main a:hover {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 20px;
     text-indent: 5px;
 }
 
 #container-sobre h2 {
     margin-top: 50px;
+    font-size: 30px;
 }
 
 #container-sobre img {

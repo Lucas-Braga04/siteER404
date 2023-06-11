@@ -1,16 +1,19 @@
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     flex-direction: column;
     font-size: 15px;
 }
-section h1{
+
+section h1 {
     text-align: center;
+    font-size: 30px;
 }
-#equipe404{
+
+#equipe404 {
     width: 100vw;
     height: 60vh;
     justify-content: center;
@@ -18,7 +21,8 @@ section h1{
     text-align: center;
     display: inline-flex;
 }
-.card-equipe{
+
+.card-equipe {
     margin: 0;
     padding: 0;
     width: 50vw;
@@ -26,7 +30,8 @@ section h1{
     justify-content: center;
     align-items: center;
 }
-.card-equipe div{
+
+.card-equipe div {
     width: 50vw;
     height: 35vh;
     justify-content: space-between;
@@ -34,40 +39,43 @@ section h1{
     align-items: center;
 }
 
-.PO{
+.PO {
 
     width: 50vw;
     height: 17.5vh;
     display: block;
     text-align: center;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
-.ES{
-    
+
+.ES {
+
     width: 50vw;
     height: 17.5vh;
     display: block;
     text-align: center;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 
 }
-.AS{
+
+.AS {
 
     width: 50vw;
     height: 17.5vh;
     display: block;
     text-align: center;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
-.DS{
+
+.DS {
 
     width: 50vw;
     height: 17.5vh;
     display: block;
     text-align: center;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }

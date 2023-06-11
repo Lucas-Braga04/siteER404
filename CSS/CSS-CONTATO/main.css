@@ -19,8 +19,8 @@ main {
     display: flex;
     width: 40%;
     height: 70%;
-    justify-content: start;
-    padding-left: 70px;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     box-shadow: 0px 5px 7px 3px rgb(133, 133, 133);
     border: none;
@@ -29,13 +29,19 @@ main {
 legend {
     color: #030E4F;
     font-weight: 500;
+    font-size: 25px;
+    padding-left: 40px;
 }
 
 .container-form form {
     display: flex;
-    padding-top: 50px;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
+}
+
+.container-form form label {
+    font-size: 20px;
+    padding-bottom: 5px;
 }
 
 .container-form form div {
@@ -76,4 +82,17 @@ legend {
     border-radius: 10px;
     border: none;
     color: #F49F1C;
+    border: solid 1px #030E4F;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 40%;
+    align-self: center;
+    font-weight: 600;
+}
+
+#btn-contato:hover {
+    transition: all 0.9s ease;
+    border: none;
+    color: #030E4F;
+    background-color: #F49F1C;
 }

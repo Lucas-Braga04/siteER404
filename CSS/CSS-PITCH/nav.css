@@ -28,6 +28,7 @@ nav ul {
     display: flex;
     padding-right: 90px;
     transition: all 0.3s ease;
+    font-size: 20px;
 }
 
 nav ul li,

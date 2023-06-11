@@ -13,7 +13,7 @@ body {
 
 main {
     width: 100vw;
-    height: 1000px;
+    height: 1100px;
     background-color: rgb(244, 249, 253);
     display: block;
     justify-content: center;
@@ -33,18 +33,21 @@ main {
 .conteudo h1 {
     display: flex;
     padding-left: 50px;
+    font-size: 30px;
 }
 
 .conteudo p {
     display: flex;
     padding: 20px 200px;
     text-indent: 10px;
+    font-size: 20px;
 }
 
 .conteudo h2 {
     display: flex;
     padding-top: 40px;
     align-self: center;
+    font-size: 30px;
 }
 
 iframe {
