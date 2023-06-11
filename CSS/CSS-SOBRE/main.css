@@ -30,6 +30,7 @@ main a:hover {
     padding-bottom: 10px;
     font-size: 20px;
     text-indent: 5px;
+    line-height: 1.4;
 }
 
 #container-sobre h2 {

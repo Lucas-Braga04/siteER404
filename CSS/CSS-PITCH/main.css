@@ -41,6 +41,7 @@ main {
     padding: 20px 200px;
     text-indent: 10px;
     font-size: 20px;
+    line-height: 1.4;
 }
 
 .conteudo h2 {
@@ -60,6 +61,7 @@ iframe {
 #mostrarPitch {
     align-self: center;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 2px 10px;
     display: flex;
     align-items: center;
