@@ -46,10 +46,22 @@ legend {
     border: 1px solid #030E4F;
 }
 
+.container-form form input:focus {
+    box-shadow: 0px 0px 10px 1px #F49F1C;
+}
+
 .container-form form textarea {
     border-radius: 5px;
     border: 1px solid #030E4F;
     padding: 10px 10px;
+}
+
+#whatsappContato:focus {
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.container-form form textarea:focus {
+    box-shadow: 0px 0px 10px 1px #F49F1C;
 }
 
 .container-form form label {
