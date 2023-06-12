@@ -39,9 +39,26 @@ legend {
     width: 50%;
 }
 
+.container-form form input {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #030E4F;
+}
+
+.container-form form textarea {
+    border-radius: 5px;
+    border: 1px solid #030E4F;
+}
+
 .container-form form label {
     font-size: 20px;
     padding-bottom: 5px;
+}
+
+.container-form form span {
+    padding-top: 2px;
+    font-size: 17px;
+    padding-left: 5px;
 }
 
 .container-form form div {
@@ -53,6 +70,7 @@ legend {
 #checkWhatsapp {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #checkWhatsapp #telefoneContato {
@@ -62,14 +80,6 @@ legend {
 #checkWhatsapp #whatsappContato {
     margin-right: 10px;
 }
-
-#whatsappContato span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 
 #telefoneUsuario {
     display: flex;
