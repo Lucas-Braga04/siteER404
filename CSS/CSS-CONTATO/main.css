@@ -17,8 +17,9 @@ main {
 
 .container-form {
     display: flex;
+    margin-top: 50px;
     width: 40%;
-    height: 70%;
+    height: 80%;
     justify-content: center;
     align-items: center;
     background-color: #fff;
@@ -48,6 +49,7 @@ legend {
 .container-form form textarea {
     border-radius: 5px;
     border: 1px solid #030E4F;
+    padding: 10px 10px;
 }
 
 .container-form form label {
