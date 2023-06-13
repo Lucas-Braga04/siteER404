@@ -56,6 +56,10 @@ legend {
     padding: 10px 10px;
 }
 
+textarea {
+    resize: none;
+}
+
 #whatsappContato:focus {
     box-shadow: 0px 0px 0px 0px white;
 }
