@@ -1,5 +1,6 @@
 footer {
     width: 100vw;
+    height: 20vh;
     background-color: #030E4F;
     display: flex;
     flex-direction: column;
