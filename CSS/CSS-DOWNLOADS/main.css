@@ -11,3 +11,9 @@ main {
     height: 80vh;
     flex-direction: column;
 }
+
+.canva {
+    width: 60%;
+    height: 20%;
+    display: flex;
+}
