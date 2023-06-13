@@ -116,8 +116,26 @@
 }
 
 @media screen and (max-width:320px) {
+    .conteudo p {
+        padding: 0px 0px;
+    }
+
+    html {
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+    }
+
+    nav,
+    html,
+    main,
+    footer {
+        width: 100vw;
+        height: 100vh;
+    }
+
     nav ul.open {
-        width: 60%;
+        width: 55%;
     }
 
     nav {
@@ -125,12 +143,12 @@
     }
 
     #image-nav {
-        width: 30%;
+        width: 50%;
     }
 
     .btn-mobile img {
-        width: 25px;
-        width: 25px;
+        width: 30px;
+        width: 30px;
     }
 
     .btn-mobile img:hover {
@@ -149,5 +167,11 @@
         width: 30%;
         display: block;
         transition: all 0.3s ease;
+    }
+
+    nav ul li a {
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 }

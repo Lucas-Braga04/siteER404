@@ -14,7 +14,7 @@ main {
 
 .container {
     width: 40%;
-    height: 20%;
+    height: 18%;
     display: flex;
     border-radius: 5px;
     justify-content: space-evenly;
@@ -48,16 +48,25 @@ main {
 }
 
 .container #area2 button {
+    font-size: 15px;
     align-self: center;
     display: flex;
     justify-content: center;
     width: 50%;
     border-radius: 20px;
-
+    box-shadow: 1px 0px 7px #F49F1C;
+    cursor: pointer;
 }
 
 .container #area2 button a {
     text-align: center;
     border-radius: 20px;
-    padding: 10px 36px;
+    padding: 10px 35px;
+}
+
+.btn-download:hover {
+    transition: all 1.3s ease;
+    border: none;
+    color: #030E4F;
+    background-color: #000000;
 }
