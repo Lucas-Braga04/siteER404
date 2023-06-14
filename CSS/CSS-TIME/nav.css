@@ -39,16 +39,10 @@ a {
     padding-right: 5px;
 }
 
-#image-nav {
-    display: flex;
+#logo-nav {
     margin-left: 10px;
-    background-image: url(/ASSETS/IMG/LOGO404$.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 300px;
-    height: 70px;
-    background-position: center;
-}
+    height: 200px;}
 
 nav ul li a:hover {
     font-weight: 600;
