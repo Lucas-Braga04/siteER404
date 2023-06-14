@@ -1,8 +1,10 @@
 footer {
+    margin-top: 10%;
     width: 100vw;
     background-color: #030E4F;
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 
 #logo-footer {
@@ -15,34 +17,45 @@ footer {
 }
 
 #area1 {
+    margin: auto;
     display: flex;
     background-color: #030E4F;
     border-top: #F49F1C solid 3px;
     width: 100vw;
-    height: 15vh;
+    height: 8vh;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 
 #contato-email {
+    height: 13vh;
     padding-left: 15px;
     display: flex;
     width: 28vw;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #contato-linkedin {
+    height: 13vh;
     padding-left: 15px;
-    display: flex;
+    display: inline-flex;
     width: 17.5vw;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #contato-github {
+    height: 13vh;
     padding-left: 15px;
-    display: flex;
+    display: inline-flex;
     width: 17.5vw;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #contato-email a:hover {
@@ -85,5 +98,7 @@ footer {
 #github,
 #linkedin,
 #email {
+    align-items: center;
+    justify-content: center;
     display: flex;
 }

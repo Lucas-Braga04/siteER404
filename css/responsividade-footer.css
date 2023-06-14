@@ -13,7 +13,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 40vw;
-        height: 13.5vh;
+        height: auto;
 
     }
 
@@ -83,7 +83,7 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 9vh;
+        height: auto;
         justify-content: center;
         align-items: center;
         color: #F49F1C;

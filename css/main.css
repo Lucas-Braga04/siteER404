@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: block;
+    width: 100vw;
+    height: 5vh;
+    margin-top: 10%;
+}
+h1{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+#equipe404{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 80vh;
+}
+.card1-equipe{
+    display: inline-flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 95vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-bottom: 10%;
+}
+.card2-equipe{
+    display: inline-flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 95vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal ;
+    margin-bottom: 10%;
+}
+.name, .cargo, .text{
+    font-size: 16px;
+}
+.text{
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    padding: 5%;
+}
+
+.PO{
+    width: 50vw;
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-y: hidden;
+}
+.ES{
+    margin: auto;
+    width: 50vw;
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-y: hidden;
+}
+.AS{
+    width: 50vw;
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-y: hidden;
+}
+.DS{
+    margin: auto;
+    width: 50vw;
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-y: hidden;
+}
