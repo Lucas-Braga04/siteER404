@@ -1,8 +1,14 @@
-*{
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,34 +16,35 @@ body{
     width: 100vw;
     height: 100vh;
 }
+
 main{
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
-section{
+section h1{
     display: block;
     width: 100vw;
-    height: 5vh;
+    height: auto;
     margin-top: 10%;
-}
-h1{
     text-align: center;
-    display: block;
+    align-items: center;
+    justify-content: center;
     font-size: 25px;
 }
 #equipe404{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
+    margin-bottom: 10%;
 }
 .card1-equipe{
     display: inline-flex;
     flex-direction: column;
     width: 50vw;
-    height: 95vh;
+    height: 100vh;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +57,7 @@ h1{
     display: inline-flex;
     flex-direction: column;
     width: 50vw;
-    height: 95vh;
+    height: 100vh;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -60,9 +67,14 @@ h1{
     margin-bottom: 10%;
 }
 .name, .cargo, .text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     font-size: 16px;
 }
 .text{
+    margin-top: 0;
     flex-wrap: wrap;
     word-wrap: break-word;
     white-space: normal;
@@ -71,10 +83,11 @@ h1{
 
 .PO{
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
     display: block;
+    text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 5px;
     flex-wrap: wrap;
     word-wrap: break-word;
@@ -84,8 +97,9 @@ h1{
 .ES{
     margin: auto;
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
     display: block;
+    text-align: center;
     align-items: center;
     justify-content: space-around;
     padding: 5px;
@@ -96,7 +110,7 @@ h1{
 }
 .AS{
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
     display: block;
     align-items: center;
     justify-content: space-around;
@@ -109,7 +123,7 @@ h1{
 .DS{
     margin: auto;
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
     display: block;
     align-items: center;
     justify-content: space-around;

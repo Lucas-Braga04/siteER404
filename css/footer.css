@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+
 footer {
     margin-top: 10%;
     width: 100vw;
@@ -13,7 +26,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     width: 40vw;
-    height: 7vh;
+    height: 13vh;
 }
 
 #area1 {
@@ -22,7 +35,7 @@ footer {
     background-color: #030E4F;
     border-top: #F49F1C solid 3px;
     width: 100vw;
-    height: 8vh;
+    height: 15vh;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
@@ -31,8 +44,8 @@ footer {
 #contato-email {
     height: 13vh;
     padding-left: 15px;
-    display: flex;
-    width: 28vw;
+    display: inline-flex;
+    width: 18.5vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
