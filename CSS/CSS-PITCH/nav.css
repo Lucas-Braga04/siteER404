@@ -39,17 +39,6 @@ a {
     padding-right: 5px;
 }
 
-#image-nav {
-    display: flex;
-    margin-left: 10px;
-    background-image: url(/ASSETS/IMG/LOGO404$.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 70px;
-    background-position: center;
-}
-
 nav ul li a:hover {
     font-weight: 600;
     text-shadow: 0px 0px 2px #F49F1C;
