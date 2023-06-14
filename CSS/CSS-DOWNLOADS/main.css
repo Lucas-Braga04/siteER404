@@ -63,3 +63,10 @@ main {
     border-radius: 20px;
     padding: 10px 35px;
 }
+
+.btn-download:hover {
+    transition: all 1.3s ease;
+    border: none;
+    color: #030E4F;
+    background-color: #000000;
+}
