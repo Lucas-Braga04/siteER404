@@ -29,6 +29,10 @@ section h1 {
     height: 60vh;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 15px;
 }
 
 .card-equipe div {
@@ -39,12 +43,16 @@ section h1 {
     align-items: center;
 }
 .text{
+    width: auto;
+    height: auto;
     padding: 5%;
     align-items: center;
     text-align: justify;
     justify-content: center;
 }
-
+.fotoEquipe{
+    border-radius: 80px;
+}
 .PO {
 
     width: 50vw;
