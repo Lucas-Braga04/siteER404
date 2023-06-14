@@ -5,6 +5,15 @@ footer {
     flex-direction: column;
 }
 
+#logo-footer {
+    background-image: url(/ASSETS/IMG/LOGO404$.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 70px;
+}
+
 #area1 {
     display: flex;
     background-color: #030E4F;
