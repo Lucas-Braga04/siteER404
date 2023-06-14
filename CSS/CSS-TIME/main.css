@@ -38,6 +38,12 @@ section h1 {
     text-align: center;
     align-items: center;
 }
+.text{
+    padding: 5%;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
 
 .PO {
 

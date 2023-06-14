@@ -13,8 +13,8 @@ main {
 }
 
 .container {
-    width: 40%;
-    height: 18%;
+    width: 25%;
+    height: 20%;
     display: flex;
     border-radius: 5px;
     justify-content: space-evenly;
@@ -48,7 +48,7 @@ main {
 }
 
 .container #area2 button {
-    font-size: 15px;
+    font-size: 12px;
     align-self: center;
     display: flex;
     justify-content: center;
