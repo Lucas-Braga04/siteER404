@@ -6,12 +6,8 @@ footer {
 }
 
 #logo-footer {
-    background-image: url(/ASSETS/IMG/LOGO404$.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 70px;
+    width: 300px;
+    height: 200px;
 }
 
 #area1 {

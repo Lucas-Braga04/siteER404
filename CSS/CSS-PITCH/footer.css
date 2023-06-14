@@ -4,7 +4,10 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
+#logo-footer{
+    width: 300px;
+    height: 200px;
+}
 #area1 {
     display: flex;
     background-color: #030E4F;
