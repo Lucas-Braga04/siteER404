@@ -66,20 +66,22 @@
         width: 100vw;
     }
 
-    #primeira-secao-texto {   
-        margin: 0;   
+    #primeira-secao-texto {
+        margin-top: 35px;
         padding: 0;
         width: 100vw;
         height: 54vh;
     }
 
     #segunda-secao-texto {
+        margin-top: 10px;
+        padding: none;
+
         width: 100vw;
         height: 45vh;
     }
 
     #primeira-secao-texto div {
-        margin-top: 5px;
         display: flex;
         flex-direction: column;
         width: 280px;
@@ -87,10 +89,11 @@
         overflow: none;
         white-space: normal;
         max-width: 100%;
+        padding: 0;
     }
 
     #segunda-secao-texto div {
-        
+
         word-wrap: break-word;
         overflow: none;
         white-space: normal;
@@ -118,7 +121,6 @@
     }
 
     #primeira-secao-texto img {
-        
         width: 50vw;
         height: 22vh;
     }
@@ -129,12 +131,14 @@
     }
 
     #segunda-secao-texto div h1 {
+        margin: 0;
         font-size: 17px;
-        margin: 20px;
+        margin-bottom: 10px;
     }
 
     #btn-about {
         display: flex;
         align-self: center;
+        margin-bottom: 50px;
     }
 }

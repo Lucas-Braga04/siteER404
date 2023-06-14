@@ -126,10 +126,7 @@
         border: 0;
     }
 
-    nav,
-    html,
-    main,
-    footer {
+    nav {
         width: 100vw;
         height: 100vh;
     }

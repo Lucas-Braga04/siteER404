@@ -125,6 +125,7 @@
         width: 100vw;
         height: auto;
         flex-direction: column;
+
     }
 
     #logo-footer {
@@ -134,5 +135,6 @@
     #area1,
     #area2 {
         font-size: 10px;
+
     }
 }
