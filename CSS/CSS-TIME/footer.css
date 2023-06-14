@@ -16,7 +16,7 @@ footer {
     border-top: #F49F1C solid 3px;
     width: 100vw;
     height: 13vh;
-    justify-content: space-around;
+    justify-content: space-around; 
     align-items: center;
 }
 
