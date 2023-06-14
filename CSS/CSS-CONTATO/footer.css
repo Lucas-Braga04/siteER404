@@ -21,7 +21,10 @@ footer {
     width: 280px;
     flex-direction: column;
 }
-
+#logo-footer{
+    width: 300px;
+    height: 200px;
+}
 #contato-linkedin {
     padding-left: 15px;
     display: flex;

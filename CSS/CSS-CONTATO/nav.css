@@ -43,7 +43,10 @@ nav ul li a:hover {
     font-weight: 600;
     text-shadow: 0px 0px 2px #F49F1C;
 }
-
+#logo-nav{
+    width: 300px;
+    height: 200px;
+}
 #dropdown-menu {
     display: flex;
     flex-direction: column;
