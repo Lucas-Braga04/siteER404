@@ -25,7 +25,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40vw;
+    width: 30vw;
     height: 13vh;
 }
 
@@ -38,37 +38,41 @@ footer {
     height: 15vh;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    font-size: 14px;
 }
 
 #contato-email {
     height: 13vh;
     padding-left: 15px;
-    display: inline-flex;
-    width: 18.5vw;
+    display: flex;
+    width: 19vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #contato-linkedin {
     height: 13vh;
     padding-left: 15px;
-    display: inline-flex;
-    width: 17.5vw;
+    display: flex;
+    width: 13.5vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #contato-github {
     height: 13vh;
     padding-left: 15px;
-    display: inline-flex;
-    width: 17.5vw;
+    display: flex;
+    width: 13.5vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #contato-email a:hover {
@@ -101,7 +105,7 @@ footer {
 }
 
 #divisor {
-    width: 100vw;
+    width: 100%;
     height: 1px;
     border: none;
     margin-bottom: 5px;
