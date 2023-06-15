@@ -57,7 +57,7 @@ section h1 {
     align-items: center;
 }
 .text{
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 5%;
     align-items: center;
