@@ -39,15 +39,17 @@ a {
     padding-right: 5px;
 }
 
-nav ul li a:hover {
-    font-weight: 600;
-    text-shadow: 0px 0px 2px #F49F1C;
-}
-#logo-nav{
+#image-nav {
     margin-left: 10px;
     width: 300px;
     height: 200px;
 }
+
+nav ul li a:hover {
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #F49F1C;
+}
+
 #dropdown-menu {
     display: flex;
     flex-direction: column;
