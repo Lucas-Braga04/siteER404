@@ -85,7 +85,3 @@ nav ul li a:hover {
 #artefs:hover>#dropdown-menu li {
     width: 150px;
 }
-
-#artefs:hover>#dropdown-menu a:hover {
-    text-shadow: 0px 0px 5px #030E4F;
-}
