@@ -32,7 +32,7 @@
    background-size: cover;
 }
 .container-canvas #canvas {
-    width: 50%;
+    width: 70%;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
