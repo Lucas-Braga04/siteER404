@@ -41,7 +41,7 @@ main {
 }
 
 .container #area2 {
-    width: 50%;
+    width: 65%;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
@@ -55,11 +55,11 @@ main {
 }
 
 .container #area2 button {
-    font-size: 12px;
+    font-size: 13px;
     align-self: center;
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 45%;
     border-radius: 20px;
     box-shadow: 1px 0px 7px #030E4F;
     cursor: pointer;

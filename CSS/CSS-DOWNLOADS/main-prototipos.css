@@ -33,7 +33,7 @@
     background-size: cover;
 }
 .container-prototipos #prototipos {
-    width: 50%;
+    width: 65%;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
@@ -44,12 +44,12 @@
     width: 100%;
     height: auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
 }
 .container-prototipos #prototipos button {
-    font-size: 12px;
+    font-size: 13px;
     align-self: center;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@
     font-weight: bold;
     text-align: center;
     border-radius: 20px;
-    padding: 10px 5px;
+    padding: 10px 10px;
     display: flex;
 }
 .btn-download-prototipos:hover {
