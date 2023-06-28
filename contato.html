@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato - ER404</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/CSS-CONTATO/main.css">
+    <link rel="shortcut icon" href="IMG/ICON-404.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm" style="background-color: #030E4F;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <t>ER</t>404
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="time.html">Time</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Artefatos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pitch.html">Pitch</a></li>
+                            <li><a class="dropdown-item" href="downloads.html">Downloads</a></li>
+                            <li><a class="dropdown-item" href="projetoER404.html">Projeto ER404</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <main class="container-fluid navbar-expand-sm">
+        <h1>Fale Conosco:</h1>
+        <div class="container-fluid navbar-expand-sm" id="containerForm">
+            <form class="row g-3" id="formulario">
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nomeContato" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="col-6">
+                    <label for="inputAddress" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="inputAddress" required>
+                </div>
+                <div class="col-6" id="containerContato">
+                    <div class="form-check" id="telefoneContato">
+                        <input class="form-check-input" type="checkbox" id="checkboxWhatsapp">
+                        <label class="form-check-label" for="checkboxWhatsapp">
+                            Whatsapp
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12" id="mensagemContato">
+                    <label for="comentarioContato" class="form-label">Deixe sua mensagem</label>
+                    <textarea name="" id="comentarioContato" cols="30" rows="7s" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="botaoFormulario" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Enviar
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" id="containerModal">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Concluido!!</h1>
+                                <button type="button" class="btn-close" id="botaoModalFechar" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Seus dados foram enviados, entraremos em contato em breve, fique de olho em seu email.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" id="botaoFormulario"
+                                    data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <br>
+    <br>
+    <footer class="text-center text-lg-start">
+
+        <div class="container p-4">
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="github">
+                    <h5 class="">Github </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a target="_blank" href="https://github.com/LucasRaphael2" class="">Lucas Raphael</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/VictorGomes06" class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/adriano150" class="">José Adriano</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/PabloSG1" class="">Pablo Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="linkedin">
+                    <h5 class="">LinkedIn </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/lucas-braga-191554258/" class="">Lucas
+                                Raphael</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/victor-moraes-275b42275"
+                                class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/adriano-silva-126250247" class="">José
+                                Adriano</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/pablo-rodrigues-125b73224/"
+                                class="">Pablo
+                                Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="email">
+                    <h5 class="">Email </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="mailto:lucas26raphael@hotmail.com" class="">Lucas Raphael</a>
+                        </li>
+                        <li>
+                            <a href="mailto:victorgomes1026@gmail.com" class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a href="mailto:adriiano17181920@gmail.com" class="">José Adriano</a>
+                        </li>
+                        <li>
+                            <a href="mailto:pabloxt200@gmail.com" class="">Pablo Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="instagram">
+                    <h5 class="">Instagram </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/lucasraphael740/" class="">Lucas
+                                Raphael</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/pops.victor/" class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/adriiano_ssilva/" class="">José
+                                Adriano</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/pabluoxz/" class="">Pablo
+                                Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img src="IMG/LOGO404.png" class="img-fluid" alt="...">
+        </div>
+        <div class="text-center p-3">
+            © 2023 Copyright:
+            <a href="sobre.html">Equipe ER404</a>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

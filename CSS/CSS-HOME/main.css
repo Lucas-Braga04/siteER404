@@ -1,129 +1,132 @@
+body {
+    height: 100vh;
+}
+
 main {
-    width: 100vw;
-    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container1 {
+    display: flex;
+    align-items: center;
+}
+
+#main-secao1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(244, 249, 253);
 }
 
-main a {
-    color: #F2BC94;
-}
-
-main a:hover {
-    color: #F49F1C;
-}
-
-#primeira-secao-texto {
-    width: 100vw;
-    height: 350px;
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 150px;
-}
-
-#primeira-secao-texto div {
-    display: flex;
-    flex-direction: column;
-    width: 430px;
-    margin-left: 100px;
-}
-
-#primeira-secao-texto h1 {
-    font-size: 29px;
-}
-
-#primeira-secao-texto div p {
-    line-height: 1.4;
+#main-secao1 p {
+    width: 70%;
     text-indent: 10px;
     text-align: justify;
-    padding-top: 15px;
-    margin-left: 20px;
-    font-size: 20px;
 }
 
-#primeira-secao-texto img {
-    padding-top: 50px;
-    margin-right: 100px;
-}
-
-#segunda-secao-texto {
-    width: 100vw;
-    height: 350px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-#segunda-secao-texto h1 {
-    font-size: 30px;
-}
-
-#segunda-secao-texto div {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin-right: 100px;
-}
-
-#segunda-secao-texto div p {
-    text-indent: 10px;
-    text-align: justify;
-    padding-top: 15px;
-    margin-left: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-#segunda-secao-texto img {
-    margin-left: 100px;
-}
-
-#segunda-secao-texto a:hover {
-    color: #F49F1C;
-}
-
-#btn-about {
-    width: 36%;
-    height: 35px;
-    background-color: #030E4F;
-    border: #F49F1C solid 2px;
+#imagem1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-self: flex-end;
-    border-radius: 7px;
-    box-shadow: 0px 0px 4px 3px rgb(136, 133, 133);
-}
-
-#btn-about a {
-    font-size: 11px;
-    text-transform: uppercase;
-    padding: 5px 18px;
-    color: #F2BC94;
-}
-
-#btn-about:hover {
-    box-shadow: #F2BC94 0px 0px 15px 8px;
-    cursor: pointer;
-}
-
-#btn-about a:hover {
-    font-weight: 600;
-    font-size: 11px;
 }
 
 main hr {
-    width: 90%;
-    background-color: #030E4F;
+    width: 80%;
+    background-color: #030e4f;
+    align-self: center;
     border: none;
-    height: 2px;
-    margin: 15px 0px;
+    height: 3px;
+}
+
+#container2 {
+    display: flex;
+    align-items: center;
+}
+
+#main-secao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-secao2 p {
+    width: 70%;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+#imagem2 {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-about {
+    padding: 0;
+    width: 20%;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid #030e4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#btn-about:hover {
+    transition: all 0.5s ease;
+    background-color: #030e4f;
+}
+
+#btn-about a {
+    text-decoration: none;
+    color: #030e4f;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+#btn-about a:hover {
+    color: #F49F1C;
+}
+
+@media screen and (max-width: 710px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container1 {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container2 {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-fluid #imagem2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-fluid #imagem1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #btn-about {
+        width: 50%;
+    }
+
+    #container1 p {
+        width: 100%;
+    }
+
+    #container2 p {
+        width: 100%;
+    }
 }

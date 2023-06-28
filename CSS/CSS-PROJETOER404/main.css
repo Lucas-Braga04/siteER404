@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    text-align: justify;
+}
+
+.h5 {
+    width: 90%;
+    text-indent: 5px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+#btn-direcionar-projeto {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #030e4f;
+}
+
+#btn-direcionar-projeto a {
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #030e4f;
+}
+
+#btn-direcionar-projeto:hover {
+    transition: all 0.5s ease;
+    background-color: #030e4f;
+}
+
+#btn-direcionar-projeto a:hover {
+    transition: all 0.5s ease;
+    color: #F49F1C;
+}

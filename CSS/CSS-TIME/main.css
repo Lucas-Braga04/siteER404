@@ -1,111 +1,52 @@
+body {
+    height: 100vh;
+}
+
 main {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 1050px;
     flex-direction: column;
-    font-size: 15px;
 }
 
-main img {
-    border-radius: 50%;
-    border: 3px solid #F49F1C;
-    background-position: center;
-    background-size: cover;
+#containerEquipe {
+    padding: 0px 50px;
 }
 
-main span {
-    padding: 5px 0px;
-    font-size: 17px;
+.card {
+    border: 2px solid #030E4F;
 }
 
-section h1 {
-    text-align: center;
-    font-size: 50px;
-    padding-bottom: 70px;
-}
-
-#equipe404 {
-    width: 100vw;
-    height: 60vh;
+#textoEquipe {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    display: inline-flex;
 }
 
-.card-equipe {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 50px;
-    width: 50vw;
-    height: 60vh;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    word-wrap: break-word;
-    white-space: normal;
-    font-size: 15px;
-}
-
-.card-equipe div {
-    width: 50vw;
-    height: 35vh;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-}
-.text{
-    width: 100%;
-    height: auto;
-    padding: 5%;
-    align-items: center;
+#textoEquipe p {
+    width: 85%;
     text-align: justify;
-    justify-content: center;
-}
-.fotoEquipe{
-    border-radius: 80px;
-}
-.PO {
-    width: 50vw;
-    height: 17.5vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
-.ES {
-    padding: 50px 0px;
-    width: 50vw;
-    height: 17.5vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+#textoEquipe h1 {
+    align-self: center;
 }
 
-.AS {
-    width: 50vw;
-    height: 17.5vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+@media screen and (max-width: 1190px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.DS {
-    padding: 50px 0px;
-    width: 50vw;
-    height: 17.5vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+@media screen and (max-width: 635px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #textoEquipe p {
+        width: 100%;
+    }
 }

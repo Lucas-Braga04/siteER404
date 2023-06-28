@@ -1,54 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    width: 100vw;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Geologica&family=Roboto&display=swap');
 
-}
 main {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(244, 249, 253);
-}   
+}
 
-#container-sobre p {
-    align-items: center;
-    text-align: justify;
-    padding-top: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 10px;
+main h1 {
+    font-family: 'Gasoek One', sans-serif;
+    color: #F49F1C;
+}
+
+main t {
+    font-family: 'Gasoek One', sans-serif;
+    color: #030E4F;
+}
+
+main p {
+    width: 90%;
     font-size: 20px;
-    text-indent: 25px;
-    line-height: 1.4;
-}
-
-#container-sobre h2 {
-    margin-top: 50px;
-    font-size: 30px;
-}
-
-#container-sobre img {
-    align-items: center;
-    width: 500px;
-    height: 200px;
-}
-
-#img-sobre {
-    height: 12vh;
-    width: 12vw;
-}
-
-#paragrafo-equipe {
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    text-align: justify;
 }

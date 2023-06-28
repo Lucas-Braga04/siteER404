@@ -1,81 +1,61 @@
 body {
-    width: 100vw;
     height: 100vh;
 }
 
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
     flex-direction: column;
-   /* background-color: rgba(244, 159, 28, 0.5);*/
-   background-color: rgba(3, 14, 79, 1);
 }
 
-.container {
-    width: 35%;
-    height: 20%;
-    display: flex;
-    border-radius: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid black;
-    margin-bottom: 20px;
-    background-color: #F49F1C;
+#card3 {
+    border: 2px solid #F49F1C;
+    border-radius: 7px;
 }
 
-.container #area1 {
-    width: 30%;
-    background-color: transparent;
-    border: none;
-    display: flex;
-}
-
-.container #area1 img {
+#card3 img {
     width: 100%;
-    height: 80%;
-    border-radius: 20px;
-    background-size: cover;
+    height: 100%;
+    border-radius: 0px;
 }
 
-.container #area2 {
-    width: 65%;
-    flex-direction: column;
+#btn-download {
     display: flex;
-    justify-content: space-evenly;
+    padding: 1px;
+    width: 40%;
+    background-color: transparent;
+    border-color: #030e4f;
 }
 
-.container #area2 h1 {
-    font-size: 30px;
-    color: #030E4F;
-    align-self: center;
-    padding-bottom: 20px;
+#btn-download:hover {
+    background-color: #030e4f;
+    transition: all 0.5s ease;
+    border: solid 1px #F49F1C;
 }
 
-.container #area2 button {
-    font-size: 13px;
-    align-self: center;
+#btn-download a:hover {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    color: #F49F1C;
+}
+
+#btn-download a {
+    font-size: 15px;
+    color: #030e4f;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.botoes-download {
+    display: flex;
+    justify-content: space-around;
+}
+
+#botao-dwnl-documentacao {
     display: flex;
     justify-content: center;
-    width: 45%;
-    border-radius: 20px;
-    box-shadow: 1px 0px 7px #030E4F;
-    cursor: pointer;
-}
-
-.container #area2 button a {
-    color: #030E4F;
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px 35px;
-    font-weight: bold;
-}
-
-.btn-download:hover {
-    transition: all 1.3s ease;
-    border: none;
-    color: #030E4F;
-    background-color: #F49F1C;
 }

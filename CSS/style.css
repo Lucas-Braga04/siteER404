@@ -1,0 +1,179 @@
+/*                        ESTILIZAÇÃO DO NAV                     */
+
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Geologica&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h5,
+h2 {
+    font-family: 'Geologica', sans-serif;
+}
+
+nav {
+    border-bottom: 3px solid #F49F1C;
+    position: fixed;
+}
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    color: #F49F1C;
+    font-size: 35px;
+    font-family: 'Gasoek One', sans-serif;
+}
+
+.navbar-brand t {
+    font-family: 'Gasoek One', sans-serif;
+    color: #F2BC94;
+}
+
+.navbar-brand:hover {
+    transition: all cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    color: #F2BC94;
+}
+
+.navbar-brand:focus {
+    color: #F2BC94;
+}
+
+.navbar-nav .nav-link {
+    color: #F49F1C;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:focus {
+    color: #F49F1C;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F2BC94;
+    border-bottom: 1px solid #F2BC94;
+}
+
+.navbar-toggler {
+    background-color: #F49F1C;
+}
+
+.navbar-toggler.collapsed:hover {
+    box-shadow: 0px 0px 0px 2px #F2BC94;
+}
+
+.dropdown-menu {
+    background-color: #F49F1C;
+
+}
+
+.dropdown-menu a {
+    color: #030E4F;
+}
+
+.dropdown-menu a:hover {
+    background-color: #F2BC94;
+}
+
+/*                         ESTILIZAÇÃO DO FOOTER \/                   */
+
+footer {
+    background-color: #030E4F;
+    border-top: #F49F1C solid 3px;
+}
+
+footer a {
+    color: #F49F1C;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F2BC94;
+    text-decoration: none;
+}
+
+footer h5 {
+    font-size: 25px;
+    color: #F49F1C;
+    border-bottom: 1px solid #F49F1C;
+}
+
+#github {
+    border-right: 1px solid #F49F1C;
+    border-left: 1px solid #F49F1C;
+}
+
+#email {
+    border-right: 1px solid #F49F1C;
+    border-left: 1px solid #F49F1C;
+}
+
+#linkedin {
+    border-right: 1px solid #F49F1C;
+    border-left: 1px solid #F49F1C;
+}
+
+#instagram {
+    border-right: 1px solid #F49F1C;
+    border-left: 1px solid #F49F1C;
+}
+
+.p-4 img {
+    display: none;
+    margin: 0px 0px;
+}
+
+.p-3 {
+    background-color: #030E4F;
+    color: #F49F1C;
+    font-size: 17px;
+    border-top: 1px solid #F49F1C;
+}
+
+@media screen and (max-width: 991px) {
+    #github {
+        border: 1px solid #F49F1C;
+    }
+
+    #email {
+        border: 1px solid #F49F1C;
+    }
+
+    #instagram {
+        border: 1px solid #F49F1C;
+    }
+
+    #linkedin {
+        border: 1px solid #F49F1C;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .p-4 img {
+        display: flex;
+        margin: 0px 0px;
+    }
+
+    #github {
+        border: 1px solid #F49F1C;
+    }
+
+    #email {
+        border: 1px solid #F49F1C;
+    }
+
+    #instagram {
+        border: 1px solid #F49F1C;
+    }
+
+    #linkedin {
+        border: 1px solid #F49F1C;
+    }
+}

@@ -1,150 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/CSS-HOME/nav.css">
-    <link rel="stylesheet" href="CSS/CSS-HOME/footer.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - ER404</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/CSS-HOME/main.css">
-    <link rel="stylesheet" href="CSS/CSS-HOME/responsividade-footer.css">
-    <link rel="stylesheet" href="CSS/CSS-HOME/responsividade-nav.css">
-    <link rel="stylesheet" href="CSS/CSS-HOME/responsividade-main.css">
-    <link rel="shortcut icon" href="ASSETS/IMG/ICON-404.png" type="image/x-icon">
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css' rel='stylesheet'>
-    <title>HOME - ER404</title>
+    <link rel="shortcut icon" href="IMG/ICON-404.png" type="image/x-icon">
 </head>
 
 <body>
-    <nav>
-         <img id="image-nav" src="ASSETS/IMG/LOGO404.png" alt="">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="paginaTime.html">Time</a></li>
-            <li><a href="paginaSobre.html">Sobre</a></li>
-            <li><a href="paginaContato.html">Contato</a></li>
-            <li class="item-lista-mobile"><a href="paginaPitch.html">Pitch</a></li>
-            <li class="item-lista-mobile"><a href="paginaDownloads.html">Downloads</a></li>
-            <li class="item-lista-mobile"><a href="">Projeto ER404</a></li>
-            <li id="artefs">Artefatos<i class="gg-chevron-down"></i>
-                <ul id="dropdown-menu">
-                    <li><a href="paginaPitch.html">Pitch</a></li>
-                    <li><a href="paginaDownloads.html">Downloads</a></li>
-                    <li><a href="">Projeto ER404</a></li>
+    <nav class="navbar navbar-expand-sm" style="background-color: #030E4F;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <t>ER</t>404
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="time.html">Time</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Artefatos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pitch.html">Pitch</a></li>
+                            <li><a class="dropdown-item" href="downloads.html">Downloads</a></li>
+                            <li><a class="dropdown-item" href="projetoER404.html">Projeto ER404</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-            <ul id="dropdown-menu-mobile">
-                <li><a href="paginaPitch.html">Pitch</a></li>
-                <li><a href="paginaDownloads.html">Downloads</a></li>
-                <li><a href="">Projeto ER404</a></li>
-            </ul>
-        </ul>
-        <button class="btn-mobile" onclick="mostrarMenu()"><img src="ASSETS/IMG/menu-svgrepo-com.svg" width="50px"
-                height="50px" alt="botão menu mobile"></button>
-
-
+            </div>
+        </div>
     </nav>
-
-    <main>
-
-        <section id="primeira-secao-texto">
-            <div>
-                <h1>
-                    O que é o projeto integrador ?
-                </h1>
-                <p>
-                    O projeto integrador é um trabalho de conclusão de curso desenvolvido pela instituição de ensino
-                    <a target="_blank" href="https://al.senai.br/">(SENAI - Serviço Nacional de Aprendizagem
-                        Industrial)</a> onde colocamos
-                    em prática o
+    <br>
+    <br>
+    <main class="container-fluid navbar-expand-sm">
+        <div class="container-fluid navbar-expand-sm" id="container1">
+            <div class="container-fluid" id="imagem1">
+                <img src="IMG/coding-workshop-animate.svg" class="img-fluid" alt="..." width="300px" height="300px">
+            </div>
+            <br>
+            <div class="container-fluid navbar-expand-sm" id="main-secao1">
+                <h1>O que é o projeto Integrador ?</h1>
+                <br>
+                <p class="h5">O projeto integrador é um trabalho de conclusão de curso desenvolvido pela instituição de
+                    ensino (SENAI - Serviço Nacional de Aprendizagem Industrial) onde colocamos em prática o
                     conhecimento
                     adquirido durante o curso, e são apresentadas demandas da industria e temos como objetivo, encontrar
-                    soluções para tais problemas ou melhorias.
-                </p>
+                    soluções para tais problemas ou melhorias.</p>
             </div>
-            <div>
-                <img src="ASSETS/IMG/coding-workshop-animate.svg" alt="imagem-projeto" width="300px" height="300px">
-            </div>
-        </section>
-
+        </div>
+        <br>
+        <br>
         <hr>
-
-        <section id="segunda-secao-texto">
-            <div>
-                <img src="ASSETS/IMG/404-error-animate.svg" alt="imagem-erro-404" width="300px" height="300px">
+        <br>
+        <br>
+        <div class="container-fluid navbar-expand-sm" id="container2">
+            <div class="container-fluid navbar-expand-sm" id="main-secao2">
+                <h1>Projeto da equipe ER404</h1>
+                <br>
+                <p class="h5">É um projeto feito pela equipe 'ER404' para conclusão do Projeto Integrador. O projeto é
+                    monitorado e orientado pela instituição e pelo seu tutor(professor) do começo ao fim do projeto, os
+                    desafios foram retirados do SAGA SENAI.</p>
             </div>
-            <div>
-                <h1>
-                    Projeto da equipe ER404
-                </h1>
-
-
-                <p>
-                    É um projeto feito pela equipe <a href="paginaTime.html">'ER404'</a> para conclusão do Projeto
-                    Integrador.
-                    O projeto é monitorado e orientado pela instituição e pelo seu tutor(professor) do começo ao fim do
-                    projeto, os desafios foram retirados do <a target="_blank"
-                        href="https://plataforma.gpinovacao.senai.br/">SAGA
-                        SENAI</a>.
-                </p>
-                </p>
-                <button id="btn-about"><a href="paginaSobre.html">Saiba mais</a></button>
+            <br>
+            <div class="container-fluid" id="imagem2">
+                <img src="IMG/404-error-animate.svg" class="img-fluid" alt="..." width="300px" height="300px">
             </div>
-        </section>
-
+        </div>
+        <br>
+        <br>
+        <button id="btn-about"><a href="projetoER404.html">Saiba mais</a></button>
     </main>
+    <br>
+    <br>
+    <footer class="text-center text-lg-start">
 
-    <footer>
+        <div class="container p-4">
 
-        <section id="area1">
-                <img id="logo-footer" src="ASSETS/IMG/LOGO404.png" alt="">
-            <div id="email">
-                <div id="logo-email">
-                    <img src="ASSETS/IMG/email-svgrepo-com.svg" alt="Icone Email" width="30px" height="30px">
-                </div>
-                <div id="contato-email">
-                    <a href="mailto:lucas26raphael@hotmail.com">lucas26raphael@hotmail.com</a>
-                    <a href="mailto:victorgomes1026@gmail.com">victorgomes1026@gmail.com</a>
-                    <a href="mailto:adriiano17181920@gmail.com">adriiano17181920@gmail.com</a>
-                    <a href="mailto:pabloxt200@gmail.com">pabloxt200@gmail.com</a>
-                </div>
-            </div>
-            <div id="linkedin">
-                <div id="logo-linkedin">
-                    <img src="ASSETS/IMG/icons8-linkedin.svg" alt="Icone LinkedIn" width="30px" height="30px">
-                </div>
-                <div id="contato-linkedin">
-                    <a target="_blank" href="https://www.linkedin.com/in/lucas-braga-191554258/">Lucas Raphael</a>
-                    <a target="_blank" href="https://www.linkedin.com/in/victor-moraes-275b42275">Victor Gomes</a>
-                    <a target="_blank" href="https://www.linkedin.com/in/adriano-silva-126250247">José Adriano</a>
-                    <a target="_blank" href="https://www.linkedin.com/in/pablo-rodrigues-125b73224/">Pablo Rodrigues</a>
-                </div>
-            </div>
-            <div id="github">
-                <div id="logo-github">
-                    <img src="ASSETS/IMG/icons8-github.svg" alt="Icone Github" width="30px" height="30px">
-                </div>
-                <div id="contato-github">
-                    <a target="_blank" href="https://github.com/LucasRaphael2">Lucas Raphael</a>
-                    <a target="_blank" href="https://github.com/VictorGomes06">Victor Gomes</a>
-                    <a target="_blank" href="https://github.com/adriano150">José Adriano</a>
-                    <a target="_blank" href="https://github.com/PabloSG1">Pablo Rodrigues</a>
-                </div>
-            </div>
-        </section>
+            <div class="row">
 
-        <section id="area2">
-            <div id="copyright">
-                <hr id="divisor">
-                <p>
-                    &reg; 2023 Todos os direitos reservados - Equipe ER404.
-                </p>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="github">
+                    <h5 class="">Github </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a target="_blank" href="https://github.com/LucasRaphael2" class="">Lucas Raphael</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/VictorGomes06" class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/adriano150" class="">José Adriano</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/PabloSG1" class="">Pablo Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="linkedin">
+                    <h5 class="">LinkedIn </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/lucas-braga-191554258/" class="">Lucas
+                                Raphael</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/victor-moraes-275b42275"
+                                class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/adriano-silva-126250247" class="">José
+                                Adriano</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/pablo-rodrigues-125b73224/"
+                                class="">Pablo
+                                Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="email">
+                    <h5 class="">Email </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="mailto:lucas26raphael@hotmail.com" class="">Lucas Raphael</a>
+                        </li>
+                        <li>
+                            <a href="mailto:victorgomes1026@gmail.com" class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a href="mailto:adriiano17181920@gmail.com" class="">José Adriano</a>
+                        </li>
+                        <li>
+                            <a href="mailto:pabloxt200@gmail.com" class="">Pablo Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="instagram">
+                    <h5 class="">Instagram </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/lucasraphael740/" class="">Lucas
+                                Raphael</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/pops.victor/" class="">Victor Gomes</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/adriiano_ssilva/" class="">José
+                                Adriano</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/pabluoxz/" class="">Pablo
+                                Rodrigues</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </section>
+            <img src="IMG/LOGO404.png" class="img-fluid" alt="...">
+        </div>
+        <div class="text-center p-3">
+            © 2023 Copyright:
+            <a href="sobre.html">Equipe ER404</a>
+        </div>
 
     </footer>
-    <script src="JS/mostrarBarraResponsiva.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
