@@ -5,14 +5,21 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #containerEquipe {
     padding: 0px 50px;
+    width: 70%;
 }
 
 .card {
     border: 2px solid #030E4F;
+}
+
+.card-text {
+    text-align: justify;
 }
 
 #textoEquipe {
