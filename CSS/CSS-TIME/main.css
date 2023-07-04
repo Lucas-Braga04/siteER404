@@ -10,7 +10,8 @@ main {
 }
 
 #containerEquipe {
-    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
     width: 70%;
 }
 
@@ -54,6 +55,23 @@ main {
     }
 
     #textoEquipe p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+        margin: 0;
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #containerEquipe {
         width: 100%;
     }
 }
