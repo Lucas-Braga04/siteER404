@@ -15,8 +15,14 @@ main {
     width: 70%;
 }
 
+.col {
+    display: flex;
+    justify-content: center;
+}
+
 .card {
     border: 2px solid #030E4F;
+    width: 100%;
 }
 
 .card-text {
