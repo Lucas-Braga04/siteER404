@@ -8,6 +8,15 @@ main {
     justify-content: center;
 }
 
+main a {
+    color: #F49F1C;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
 #container1 {
     display: flex;
     align-items: center;
